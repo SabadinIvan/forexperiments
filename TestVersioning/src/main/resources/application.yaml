@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: TestVersioning
+  mvc:
+    apiversion:
+      use:
+        header: X-API-Version
+        query-parameter: version
+        path-segment: 1
+
