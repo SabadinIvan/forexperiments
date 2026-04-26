@@ -3,13 +3,22 @@ package factorymethod;
 public class MainClass {
 
     public static void main(String[] args) {
-        Country russia = CountryFactory.createCountry("Russia");
+        CountryFactory russiaFactory = new RussiaCountryFactory();
+        russiaFactory.handleCountry();
+
+        CountryFactory georgiaFactory = new GeorgiaCountryFactory();
+        georgiaFactory.handleCountry();
+
+        CountryFactory spainFactory = new SpainCountryFactory();
+        spainFactory.handleCountry();
+
+        Country russia = SimpleCountryFactory.createCountry("Russia");
         russia.singAnthem();
 
-        Country georgia = CountryFactory.createCountry("georgia");
+        Country georgia = SimpleCountryFactory.createCountry("georgia");
         georgia.singAnthem();
 
-        Country spain = CountryFactory.createCountry("SpAiN");
+        Country spain = SimpleCountryFactory.createCountry("SpAiN");
         spain.singAnthem();
     }
 }

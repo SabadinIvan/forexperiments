@@ -1,13 +1,11 @@
 package factorymethod;
 
-public class CountryFactory {
+public abstract class CountryFactory {
 
-    public static Country createCountry(String country) {
-        return switch (country.toLowerCase()) {
-            case "russia" -> new Russia();
-            case "georgia" -> new Georgia();
-            case "spain" -> new Spain();
-            default -> throw new IllegalArgumentException("We dont have county " + country);
-        };
+    public abstract Country createCountry();
+
+    public void handleCountry() {
+        Country country = createCountry();
+        country.singAnthem();
     }
 }
