@@ -1,9 +1,9 @@
-package generating.abstractfactory;
+package generating.abstractfactory.countries;
 
-import generating.abstractfactory.factories.CountryFactory;
-import generating.abstractfactory.factories.GeorgiaFactory;
-import generating.abstractfactory.factories.RussiaFactory;
-import generating.abstractfactory.factories.SpainFactory;
+import generating.abstractfactory.countries.factories.CountryFactory;
+import generating.abstractfactory.countries.factories.GeorgiaFactory;
+import generating.abstractfactory.countries.factories.RussiaFactory;
+import generating.abstractfactory.countries.factories.SpainFactory;
 
 public class AbstractFactoryDemo {
 

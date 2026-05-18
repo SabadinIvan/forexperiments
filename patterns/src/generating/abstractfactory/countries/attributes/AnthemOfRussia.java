@@ -1,4 +1,4 @@
-package generating.abstractfactory.attributes;
+package generating.abstractfactory.countries.attributes;
 
 public class AnthemOfRussia implements AnthemOfCountry {
     @Override

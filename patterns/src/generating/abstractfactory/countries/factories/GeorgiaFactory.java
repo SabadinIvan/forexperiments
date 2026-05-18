@@ -1,6 +1,6 @@
-package generating.abstractfactory.factories;
+package generating.abstractfactory.countries.factories;
 
-import generating.abstractfactory.attributes.*;
+import generating.abstractfactory.countries.attributes.*;
 
 public class GeorgiaFactory implements CountryFactory {
     @Override

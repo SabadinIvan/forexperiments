@@ -1,9 +1,9 @@
-package generating.abstractfactory;
+package generating.abstractfactory.countries;
 
-import generating.abstractfactory.attributes.AnthemOfCountry;
-import generating.abstractfactory.attributes.CoatOfArmsOfCountry;
-import generating.abstractfactory.attributes.FlagOfCountry;
-import generating.abstractfactory.factories.CountryFactory;
+import generating.abstractfactory.countries.attributes.AnthemOfCountry;
+import generating.abstractfactory.countries.attributes.CoatOfArmsOfCountry;
+import generating.abstractfactory.countries.attributes.FlagOfCountry;
+import generating.abstractfactory.countries.factories.CountryFactory;
 
 public class Country {
     private final FlagOfCountry flag;
